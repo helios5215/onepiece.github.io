@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@font-face{
+    font-family: onepiece;
+    src: url(../font/one\ piece\ font.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header {
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  .header-img {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    font-size: 5em;
+    font-family: onepiece;
+    font-weight: 500;
+  }
+nav{
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+.menu a{
+    text-transform: uppercase;
+    font-family: "Fredericka the Great", serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin:0px 15px;
+    transition: 1s;
+}
+.menu a:hover{
+    transition: 0s;
+    color: #774E24;
+}
+main{
+  padding: 40px;
+}
+section{
+  margin-bottom: 20px;
+}
+.articulo{
+  align-items: center;
+  display: flex;
+  justify-content: center;       
+    align-items: center;          
+    flex-wrap: wrap;
+  gap: 4%;
+}
+.personajes{
+  background-color: #774E24;
+  box-shadow: 0 4px 8px #E5E5E5;
+  width: 180px;
+}
+.personajes img{
+  width: 100%;
+  height: auto;
+}
+.personajes:hover{
+  opacity: 0.5;
+}
+h2{
+  font-family: "Fredericka the Great", serif;
+  font-size: 35px;
+  color: #8E0045;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 35px  0;
+}
+p{
+  color: #F2F5EA;
+  font-family: "Rock Salt", cursive;
+  text-align: left;
+}
+ .conpla{
+  align-items: center;
+  display: flex;
+  justify-content: center;       
+    align-items: center;          
+    flex-wrap: wrap;
+  gap: 8%;
+  
+ }
+ .pla{
+  box-shadow: 0 4px 8px rgba(253, 253, 253, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 30%;
+  text-align: center;
+ }
+ .pla h3{
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+ }
+ video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.contactos-container {
+  display: flex;
+  gap: 20px;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 4px 8px #E5E5E5;
+  border-radius: 10px;
+    margin-bottom: 15px;
+}
+.contacto-item {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px #E5E5E5;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.contacto-item h3 {
+    color: #F2F5EA;
+  margin-bottom: 10px;
+  font-family: "Fredericka the Great", serif;
+    font-size: 30px;
+}
+
+.contacto-item p {
+    text-align: center;
+    color:#F2F5EA;
+  margin: 5px 0;
+  font-family: "Rock Salt", cursive;
+    font-size: 20px;
+  
+}
+footer {
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+    border-top: 1px solid white;
+}
+.social-icons img {
+  width: 30px;
+  height: auto;
+  margin: 0 15px;
+  filter: drop-shadow(0 0 20px #F2F5EA);
+}
